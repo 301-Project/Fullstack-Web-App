@@ -11,12 +11,27 @@
 
   <main>
     <nav class="sidenav">
-      <ul><a href="/pages/searches/new">Search New Recipe</a></ul>
-      <ul><a href="aboutus">Search New Recipe</a></ul>
+      <ul><a href="/views/index.ejs">Home</a></ul>
+      <ul><a href="/views/pages/searches/shop.ejs">Shop For More Food</a></ul>
+      <ul><a href="/views/aboutus.ejs">About Us</a></ul>
     </nav>
     
-    <a href="/views/index.ejs"><p>Back To Home</p>></a>
-    <a href="/pages/searches/new"><p>Create Recipe</p>></a>
+    <!-- LIST EACH ITEM IN THE INVENTORY DATABASE -->
+    <ul>
+        <% inventory.forEach( item => { %>
+            <h2><%=inventory.name %></h2>
+            <p>Quantity: <%=inventory.quantity %></p>
+        <% }) %>
+    </ul>
+
+    <!-- SEARCH FOR NEW RECIPES -->
+    <form action="search" method="post">
+            <input type="hidden" value="search">
+            <button type="submit">Search For Recipes</button>
+        </form>
+
+    <!-- NAVIGATE TO SHOPPING PAGE -->
+    <a href="/pages/searches/shop">Shop To Add More Food</a>
 
 
   </main>
