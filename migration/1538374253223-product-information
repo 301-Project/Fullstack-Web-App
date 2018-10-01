@@ -1,0 +1,87 @@
+********
+Search by UPC is also available
+
+********
+
+
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: UserId, Hash, Name, Password, Accept, Accept-Language, Content-Language, Content-Type, Origin, X-Requested-With
+Access-Control-Allow-Methods: GET, HEAD, POST, OPTIONS, DELETE, PUT
+Allow-Control-Allow-Methods: GET, HEAD, POST, OPTIONS, DELETE, PUT
+Allow-Control-Allow-Origin: *
+Connection: keep-alive
+Content-Length: 1056
+Content-Type: application/json
+Date: Mon, 01 Oct 2018 06:09:41 GMT
+Server: Mashape/5.0.6
+X-Ratelimit-Requests-Limit: 50
+X-Ratelimit-Requests-Remaining: 47
+X-Ratelimit-Results-Limit: 500
+X-Ratelimit-Results-Remaining: 500
+X-Ratelimit-Tinyrequests-Limit: 500
+X-Ratelimit-Tinyrequests-Remaining: 500
+
+{
+  "id": 209945,
+  "title": "Crystal Farms Eggs - Fresh Accents Peeled Hard Cooked 2 ct Packs",
+  "price": 0,
+  "likes": 0,
+  "badges": [
+    "egg_free",
+    "peanut_free",
+    "primal",
+    "sulfite_free",
+    "nut_free",
+    "vegan",
+    "no_preservatives",
+    "soy_free",
+    "msg_free",
+    "no_artificial_colors",
+    "sugar_free",
+    "no_artificial_flavors",
+    "vegetarian",
+    "no_artificial_ingredients",
+    "no_additives",
+    "corn_free",
+    "dairy_free",
+    "paleo",
+    "gluten_free"
+  ],
+  "important_badges": [
+    "no_additives",
+    "no_preservatives",
+    "no_artificial_flavors",
+    "no_artificial_colors",
+    "no_artificial_ingredients",
+    "sulfite_free"
+  ],
+  "nutrition": {
+    "calories": 70,
+    "fat": "5g",
+    "protein": "6g",
+    "carbs": "1g"
+  },
+  "serving_size": null,
+  "number_of_servings": 6,
+  "spoonacular_score": 100,
+  "breadcrumbs": [
+    "egg",
+    "ingredient"
+  ],
+  "generatedText": null,
+  "ingredients": [
+    {
+      "name": "hard eggs",
+      "safety_level": null,
+      "description": null
+    }
+  ],
+  "ingredientCount": 1,
+  "ingredientList": "Hard Cooked Eggs",
+  "images": [
+    "https://spoonacular.com/productImages/209945-312x231.jpg",
+    "https://spoonacular.com/productImages/209945-636x393.jpg",
+    "https://spoonacular.com/productImages/209945-90x90.jpg"
+  ]
+
