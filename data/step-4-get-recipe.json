@@ -1,0 +1,250 @@
+{
+    "vegetarian": true,
+    "vegan": false,
+    "glutenFree": true,
+    "dairyFree": true,
+    "veryHealthy": false,
+    "cheap": false,
+    "veryPopular": true,
+    "sustainable": false,
+    "weightWatcherSmartPoints": 1,
+    "gaps": "no",
+    "lowFodmap": true,
+    "ketogenic": false,
+    "whole30": true,
+    "preparationMinutes": 10,
+    "cookingMinutes": 5,
+    "sourceUrl": "https://cookingwithcurls.com/2016/12/19/instant-pot-hard-boiled-eggs/",
+    "spoonacularSourceUrl": "https://spoonacular.com/instant-pot-hard-boiled-eggs-977701",
+    "aggregateLikes": 9128,
+    "spoonacularScore": 27,
+    "healthScore": 1,
+    "creditText": "Cooking with Curls",
+    "sourceName": "Cooking with Curls",
+    "pricePerServing": 24,
+    "extendedIngredients": [
+        {
+            "id": 1123,
+            "aisle": "Milk, Eggs, Other Dairy",
+            "image": "egg.jpg",
+            "consitency": "solid",
+            "name": "eggs",
+            "original": "12 large eggs",
+            "originalString": "12 large eggs",
+            "originalName": null,
+            "amount": 12,
+            "unit": "",
+            "meta": [
+                "large"
+            ],
+            "metaInformation": [
+                "large"
+            ],
+            "measures": {
+                "us": {
+                    "amount": 12,
+                    "unitShort": "",
+                    "unitLong": ""
+                },
+                "metric": {
+                    "amount": 12,
+                    "unitShort": "",
+                    "unitLong": ""
+                }
+            }
+        },
+        {
+            "id": 10014412,
+            "aisle": "Frozen",
+            "image": "ice-cubes.jpg",
+            "consitency": "solid",
+            "name": "ice",
+            "original": "ice",
+            "originalString": "ice",
+            "originalName": null,
+            "amount": 12,
+            "unit": "servings",
+            "meta": [],
+            "metaInformation": [],
+            "measures": {
+                "us": {
+                    "amount": 12,
+                    "unitShort": "servings",
+                    "unitLong": "servings"
+                },
+                "metric": {
+                    "amount": 12,
+                    "unitShort": "servings",
+                    "unitLong": "servings"
+                }
+            }
+        },
+        {
+            "id": 14412,
+            "aisle": "Beverages",
+            "image": "water.jpg",
+            "consitency": "liquid",
+            "name": "water",
+            "original": "1 cup water",
+            "originalString": "1 cup water",
+            "originalName": null,
+            "amount": 1,
+            "unit": "cup",
+            "meta": [],
+            "metaInformation": [],
+            "measures": {
+                "us": {
+                    "amount": 1,
+                    "unitShort": "cup",
+                    "unitLong": "cup"
+                },
+                "metric": {
+                    "amount": 236.588,
+                    "unitShort": "g",
+                    "unitLong": "grams"
+                }
+            }
+        }
+    ],
+    "id": 977701,
+    "title": "Instant Pot Hard Boiled Eggs",
+    "readyInMinutes": 15,
+    "servings": 12,
+    "image": "https://spoonacular.com/recipeImages/977701-556x370.jpg",
+    "imageType": "jpg",
+    "cuisines": [],
+    "dishTypes": [
+        "side dish"
+    ],
+    "diets": [
+        "gluten free",
+        "dairy free",
+        "paleolithic",
+        "lacto ovo vegetarian",
+        "primal",
+        "fodmap friendly",
+        "whole 30"
+    ],
+    "occasions": [],
+    "winePairing": {},
+    "instructions": "Instructions\n\n\n\nPlace trivet at the bottom of the inner Instant Pot pan.\n\n\nPlace eggs on top of trivet, stacking evenly if necessary.\n\n\nAdd one cup of water to the pan. Close the lid and set Instant Pot for 5 minutes at HIGH pressure.\n\n\nAllow pot to release the pressure naturally for 5 minutes, then very carefully quick release any remaining steam.\n\n\nScoop eggs out of pot and place in an ice bath for 5 minutes.\n\n\nRemove from the ice bath and peel or store in the refrigerator until ready to use.",
+    "analyzedInstructions": [
+        {
+            "name": "",
+            "steps": [
+                {
+                    "number": 1,
+                    "step": "Place trivet at the bottom of the inner Instant Pot pan.",
+                    "ingredients": [],
+                    "equipment": [
+                        {
+                            "id": 414093,
+                            "name": "instant pot",
+                            "image": ""
+                        },
+                        {
+                            "id": 404645,
+                            "name": "frying pan",
+                            "image": "pan.png"
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "step": "Place eggs on top of trivet, stacking evenly if necessary.",
+                    "ingredients": [
+                        {
+                            "id": 1123,
+                            "name": "egg",
+                            "image": "egg.jpg"
+                        }
+                    ],
+                    "equipment": []
+                },
+                {
+                    "number": 3,
+                    "step": "Add one cup of water to the pan. Close the lid and set Instant Pot for 5 minutes at HIGH pressure.",
+                    "ingredients": [
+                        {
+                            "id": 14412,
+                            "name": "water",
+                            "image": "water.jpg"
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 414093,
+                            "name": "instant pot",
+                            "image": ""
+                        },
+                        {
+                            "id": 404645,
+                            "name": "frying pan",
+                            "image": "pan.png"
+                        }
+                    ],
+                    "length": {
+                        "number": 5,
+                        "unit": "minutes"
+                    }
+                },
+                {
+                    "number": 4,
+                    "step": "Allow pot to release the pressure naturally for 5 minutes, then very carefully quick release any remaining steam.",
+                    "ingredients": [],
+                    "equipment": [
+                        {
+                            "id": 404752,
+                            "name": "pot",
+                            "image": "stock-pot.jpg"
+                        }
+                    ],
+                    "length": {
+                        "number": 5,
+                        "unit": "minutes"
+                    }
+                },
+                {
+                    "number": 5,
+                    "step": "Scoop eggs out of pot and place in an ice bath for 5 minutes.",
+                    "ingredients": [
+                        {
+                            "id": 1123,
+                            "name": "egg",
+                            "image": "egg.jpg"
+                        },
+                        {
+                            "id": 10014412,
+                            "name": "ice",
+                            "image": "ice-cubes.jpg"
+                        }
+                    ],
+                    "equipment": [
+                        {
+                            "id": 404752,
+                            "name": "pot",
+                            "image": "stock-pot.jpg"
+                        }
+                    ],
+                    "length": {
+                        "number": 5,
+                        "unit": "minutes"
+                    }
+                },
+                {
+                    "number": 6,
+                    "step": "Remove from the ice bath and peel or store in the refrigerator until ready to use.",
+                    "ingredients": [
+                        {
+                            "id": 10014412,
+                            "name": "ice",
+                            "image": "ice-cubes.jpg"
+                        }
+                    ],
+                    "equipment": []
+                }
+            ]
+        }
+    ],
+    "creditsText": "Cooking with Curls"
+}
