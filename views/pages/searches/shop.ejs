@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shop</title>
+  <%- include('../partials/head') %>
+</head>
+<body>
+  <header>
+    <h1>Shopping List</h1>
+  </header>
+
+  <main>
+    <nav class="sidenav">
+      <ul><a href="/views/index.ejs">Home</a></ul>
+      <ul><a href="/views/pages/searches/inventory.ejs">Your Refrigerator</a></ul>
+      <ul><a href="/views/aboutus.ejs">About Us</a></ul>
+    </nav>
+    
+    <!-- SHOPPING LIST -->
+    <ul>
+        <form action="add" method="post">
+            <input type="text" name="food" placeholder="Food" required>
+            <input type="text" name="quantity" placeholder="Quantity by grams" required>
+            <button type="submit">Add To My Refrigerator</button>
+        </form>
+    </ul>
+
+    <!-- SEARCH FOR NEW RECIPES -->
+    <form action="search" method="post">
+        <input type="hidden" value="search">
+        <button type="submit">Search For Recipes</button>
+    </form>
+
+
+  </main>
+</body>
+<footer>
+    <p>CopyRight2018</p>
+</footer>
+</html>
