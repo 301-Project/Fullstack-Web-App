@@ -1,0 +1,244 @@
+
+   
+              
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: UserId, Hash, Name, Password, Accept, Accept-Language, Content-Language, Content-Type, Origin, X-Requested-With
+Access-Control-Allow-Methods: GET, HEAD, POST, OPTIONS, DELETE, PUT
+Allow-Control-Allow-Methods: GET, HEAD, POST, OPTIONS, DELETE, PUT
+Allow-Control-Allow-Origin: *
+Connection: keep-alive
+Content-Length: 3834
+Content-Type: application/json
+Date: Mon, 01 Oct 2018 05:20:31 GMT
+Server: Mashape/5.0.6
+X-Ratelimit-Requests-Limit: 50
+X-Ratelimit-Requests-Remaining: 48
+X-Ratelimit-Results-Limit: 500
+X-Ratelimit-Results-Remaining: 500
+X-Ratelimit-Tinyrequests-Limit: 500
+X-Ratelimit-Tinyrequests-Remaining: 500
+
+[
+  {
+    "original": "eggs",
+    "originalString": "eggs",
+    "originalName": "eggs",
+    "ingredientImage": "egg.jpg",
+    "metaInformation": [
+      "egg"
+    ],
+    "products": [
+      {
+        "id": 209945,
+        "upc": "075925889498",
+        "title": "Crystal Farms Eggs - Fresh Accents Peeled Hard Cooked 2 ct Packs"
+      },
+      {
+        "id": 214723,
+        "upc": "093966811100",
+        "title": "Organic Valley Eggs - Organic Medium Brown"
+      },
+      {
+        "id": 183228,
+        "upc": "715141328615",
+        "title": "Eggland's Best Grade A Eggs Jumbo - 12 CT"
+      },
+      {
+        "id": 178737,
+        "upc": "715141113570",
+        "title": "Eggland's Best Grade A Eggs Large - 18 CT"
+      },
+      {
+        "id": 183180,
+        "upc": "715141729283",
+        "title": "Eggland's Best Grade A Eggs Extra Large - 12 CT"
+      },
+      {
+        "id": 177260,
+        "upc": "077236000302",
+        "title": "Dutch Farms Grade A Large Eggs - 12 CT"
+      },
+      {
+        "id": 195432,
+        "upc": "044619070320",
+        "title": "Sparboe Farms Large Grade A Eggs, 12ct"
+      },
+      {
+        "id": 222294,
+        "upc": "856209005113",
+        "title": "The Farmer's Hen Grade A Large Eggs - 12 CT"
+      },
+      {
+        "id": 406256,
+        "upc": "038222064005",
+        "title": "The Country Hen Organic Extra-LG Eggs Grade A - 6 CT"
+      },
+      {
+        "id": 187088,
+        "upc": "091945100078",
+        "title": "Dutch Farms Grade A Large Brown Organic Eggs - 12 CT"
+      },
+      {
+        "id": 186346,
+        "upc": "091945586001",
+        "title": "Dutch Farms Grade A Large Brown Cage Free Eggs - 12 CT"
+      },
+      {
+        "id": 413769,
+        "upc": "715141502213",
+        "title": "Eggland's Best Cage Free Hard-Cooked Peeled Eggs - 6 CT"
+      },
+      {
+        "id": 414411,
+        "upc": "861620000098",
+        "title": "The Neat Egg Natural Vegan Egg Substitute"
+      },
+      {
+        "id": 7486,
+        "upc": "715141501193",
+        "title": "Egg-Land's Best Eggs"
+      },
+      {
+        "id": 414214,
+        "upc": "039401000067",
+        "title": "Hardboiled Color Coated Eggs - 12 CT"
+      },
+      {
+        "id": 415962,
+        "upc": "075925300511",
+        "title": "Crystal Farms Ready Egg Go! Hard-Boiled Egg With Cashews & Gouda Cheese"
+      },
+      {
+        "id": 415945,
+        "upc": "075925300504",
+        "title": "Crystal Farms Ready Egg Go! Hard-Boiled Egg With Almonds & White Cheddar Cheese"
+      },
+      {
+        "id": 216547,
+        "upc": "041820502008",
+        "title": "Second Nature Egg Product - Liquid Fat Free"
+      },
+      {
+        "id": 216597,
+        "upc": "041820502107",
+        "title": "Second Nature Egg Product - Liquid Fat Free"
+      },
+      {
+        "id": 427554,
+        "upc": "637480009188",
+        "title": "Atkins Egg With Sausage And Cheese Burrito"
+      }
+    ]
+  },
+  {
+    "original": "bacon",
+    "originalString": "bacon",
+    "originalName": "bacon",
+    "ingredientImage": "raw-bacon.png",
+    "metaInformation": [
+      "bacon"
+    ],
+    "products": [
+      {
+        "id": 159164,
+        "upc": "079621461552",
+        "title": "Wright Bacon - Naturally Hickory Smoked"
+      },
+      {
+        "id": 87924,
+        "upc": "073890006025",
+        "title": "Sugardale Bacon"
+      },
+      {
+        "id": 213315,
+        "upc": "070100060877",
+        "title": "John Morrell Bacon - Applewood Smoked"
+      },
+      {
+        "id": 94585,
+        "upc": "037600153041",
+        "title": "Hormel Black Label Bacon Thick Cut"
+      },
+      {
+        "id": 203155,
+        "upc": "645230007193",
+        "title": "Fud Original Bacon, 12 oz"
+      },
+      {
+        "id": 190690,
+        "upc": "785331722387",
+        "title": "Gwaltney Sliced Bacon Thick Cut"
+      },
+      {
+        "id": 33773,
+        "upc": "785331722431",
+        "title": "Gwaltney Virginia Cured Bacon"
+      },
+      {
+        "id": 200979,
+        "upc": "043500040688",
+        "title": "Plumrose Bacon - Hearty Country Style Thick Sliced"
+      },
+      {
+        "id": 215624,
+        "upc": "043500850485",
+        "title": "Plumrose Bacon - Premium Old Fashioned Hardwood Smoked"
+      },
+      {
+        "id": 211269,
+        "upc": "070247170965",
+        "title": "Farmland Bacon - Naturally Hickory Smoked Extra Thick Cut"
+      },
+      {
+        "id": 48483,
+        "upc": "093966001167",
+        "title": "Organic Prairie Bacon"
+      },
+      {
+        "id": 180072,
+        "upc": "688267132230",
+        "title": "Guaranteed Value Bacon Hardwood Smoked Sliced"
+      },
+      {
+        "id": 67148,
+        "upc": "070247134110",
+        "title": "Farmland Lower Sodium Bacon"
+      },
+      {
+        "id": 107250,
+        "upc": "070247159007",
+        "title": "Farmland Naturally Hickory Smoked Bacon Lower Sodium"
+      },
+      {
+        "id": 414361,
+        "upc": "042421225785",
+        "title": "Boar's Head Naturally Smoked Sliced Bacon"
+      },
+      {
+        "id": 205927,
+        "upc": "037600394000",
+        "title": "Hormel Bacon - Canadian Style Pizza Style"
+      },
+      {
+        "id": 205796,
+        "upc": "070100060037",
+        "title": "John Morrell Bacon - Smoky Maple"
+      },
+      {
+        "id": 92079,
+        "upc": "044700027738",
+        "title": "Oscar Mayer Bacon Bacon Recipe Pieces - Real"
+      },
+      {
+        "id": 219254,
+        "upc": "079621002625",
+        "title": "Wright Bacon - Naturally Smoked Honey Bourbon Flavored"
+      },
+      {
+        "id": 188645,
+        "upc": "079927053017",
+        "title": "Unique Flavor Shocked Pretzel \"Shells\" Bacon Cheddar"
+      }
+    ]
+  }
+]
