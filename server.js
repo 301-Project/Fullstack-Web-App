@@ -38,8 +38,6 @@ client.on('error', err => console.log(err));
 
 
 
-
-
 //API routes - rendering the search form
 
 app.get();
@@ -63,8 +61,15 @@ function handleError(err, res) {
 }
 
 
+function Ingredients (response){
+  this.id = response.id || 'No id available';
+  this.title = response.title || 'No title available';
+  
+}
 
-
+function ingredientSearch(request, response) {
+  response.render('pages/searches/new');
+}
 
 
 // DESTRUCTURING (when we are adding database)
