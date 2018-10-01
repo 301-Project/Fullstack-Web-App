@@ -1,0 +1,28 @@
+{
+    "type": "product",
+    "products": [
+        {
+            "id": 7408,
+            "title": "Egg-Lands Best Hard Cooked Peeled Eggs - 6 CT",
+            "image": "https://spoonacular.com/productImages/7408-312x231.jpg",
+            "imageType": "jpg"
+        },
+        {
+            "id": 63441,
+            "title": "Almark Foods Hard-Boiled Eggs Ready To Eat - 2 CT",
+            "image": "https://spoonacular.com/productImages/63441-312x231.jpg",
+            "imageType": "jpg"
+        },
+        {
+            "id": 406399,
+            "title": "Crystal Farms Hard Boiled Eggs Peeled - 2 CT",
+            "image": "https://spoonacular.com/productImages/406399-312x231.jpg",
+            "imageType": "jpg"
+        }
+    ],
+    "offset": 0,
+    "number": 3,
+    "totalProducts": 97,
+    "processingTimeMs": 333,
+    "expires": 1538688535293
+}
