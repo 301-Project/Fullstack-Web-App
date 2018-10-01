@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Refrigerator</title>
+  <link rel="stylesheet" type="text/css" href="/public/styles/reset.css" />
+  <link rel="stylesheet" type="text/css" href="/public/styles/base.css" />
+  <link rel="stylesheet" type="text/css" href="/public/styles/layout.css" />
+  <link rel="stylesheet" type="text/css" href="/public/styles/module.css" />
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700|Roboto+Condensed|Roboto:900|Titillium+Web:700" 
+</head>
+<body class="refrigeBody">
+  <header>
+    <h1>Your Refrigerator</h1>
+  </header>
+
+    <nav class="sidenav">
+      <ul><a href="index.html">Home</a></ul>
+      <ul><a href="/views/pages/searches/shop.ejs">Shop For More Food</a></ul>
+      <ul><a href="/views/aboutus.ejs">About Us</a></ul>
+    </nav>
+    
+    <!-- ADD ITEM TO YOUR REFRIGERATOR -->
+    <ul>
+            <form action="add" method="post">
+                <input type="text" name="food" placeholder="Food" required>
+                <input type="text" name="quantity" placeholder="Quantity by grams" required>
+                <button type="submit">Add To My Refrigerator</button>
+            </form>
+        </ul>
+
+    <!-- LIST EACH ITEM IN THE INVENTORY DATABASE -->
+    <ul>
+            <h2> inventory.name</h2>
+            <p>Quantity: inventory.quantity</p>
+    </ul>
+
+    <!-- SEARCH FOR NEW RECIPES -->
+    <form action="search" method="post">
+        <input type="hidden" value="search">
+        <button type="submit">Search For Recipes</button>
+    </form>
+
+    <!-- NAVIGATE TO SHOPPING PAGE -->
+    <a href="/pages/searches/shop">Shop To Add More Food</a>
+
+
+</body>
+<footer>
+    <p>CopyRight2018</p>
+</footer>
+</html>
