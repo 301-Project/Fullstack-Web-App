@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipe</title>
+  <%- include('../partials/head') %>
+</head>
+<body>
+  <header>
+    <h1>Recipe</h1>
+  </header>
+
+  <main>
+    <nav class="sidenav">
+      <ul><a href="/views/index.ejs">Home</a></ul>
+      <ul><a href="/views/pages/searches/inventory.ejs">Your Refrigerator</a></ul>
+      <ul><a href="/views/pages/searches/shop.ejs">Shop For More Food</a></ul>
+      <ul><a href="/views/aboutus.ejs">About Us</a></ul>
+    </nav>
+    
+
+    <!-- RENDER RECIPES FOUND -->
+    <!-- NEED TO REFACTOR ACCORDING TO THE ARRAY OF OBJECT -->
+    <ul>
+        <% recipe.forEach( item => { %>
+          <h2><%=recipe.title%></h2>
+          <p>Serving Size: <%=recipe.serving-size%></p> 
+          <!-- <img src="<%=recipe.image%>" alt="recipe image">
+          <p>Instruction: <%=recipe.instruction %></p> -->
+        <% }) %>
+    </ul>
+
+
+    <a href="/pages/searches/inventory">Back To Your Refrigerator</a>
+    <a href="/pages/searches/shop">Back To Shopping</a>
+
+
+  </main>
+</body>
+<footer>
+    <p>CopyRight2018</p>
+</footer>
+</html>

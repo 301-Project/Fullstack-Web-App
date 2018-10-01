@@ -22,7 +22,7 @@ app.set('view engine', 'ejs');
 
 //Allowing for methods:put/delete
 
-app.use(bodyParser.urlencoded());
+
 app.use(methodOverride(function (request,response) {
   if(request.body && typeof request.body === 'object' && '_method' in request.body) { 
     let method = request.body._method;
@@ -40,13 +40,13 @@ client.on('error', err => console.log(err));
 
 //API routes - rendering the search form
 
-app.get();
-app.post();
-app.get();
-app.post();
-app.put();
-app.get();
-app.delete();
+// app.get('', getIngredient);
+// app.post();
+// app.get();
+// app.post();
+// app.put();
+// app.get();
+// app.delete();
 
 
 
@@ -59,6 +59,18 @@ function handleError(err, res) {
   console.error(err);
   if (res) res.status(500).send('Sorry, something went wrong')
 }
+
+
+
+
+// function getIngredient(request, response)
+ 
+
+
+
+
+
+
 
 
 function Ingredients (response){

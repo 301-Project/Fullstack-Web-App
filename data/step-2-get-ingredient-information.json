@@ -1,0 +1,84 @@
+{
+    "id": 7408,
+    "title": "Egg-Lands Best Hard Cooked Peeled Eggs - 6 CT",
+    "price": 0,
+    "likes": 0,
+    "badges": [
+        "peanut_free",
+        "sulfite_free",
+        "nut_free",
+        "soy_free",
+        "msg_free",
+        "no_artificial_colors",
+        "sugar_free",
+        "no_artificial_flavors",
+        "vegetarian",
+        "no_artificial_ingredients",
+        "no_additives",
+        "corn_free",
+        "dairy_free",
+        "gluten_free"
+    ],
+    "important_badges": [
+        "gluten_free"
+    ],
+    "nutrition": {
+        "calories": 60,
+        "fat": "3.5g",
+        "protein": "5g",
+        "carbs": "0g"
+    },
+    "serving_size": "1.0 egg (44 g)",
+    "number_of_servings": 6,
+    "spoonacular_score": 100,
+    "breadcrumbs": [
+        "hard boiled egg",
+        "egg",
+        "ingredient"
+    ],
+    "generatedText": null,
+    "ingredients": [
+        {
+            "name": "processed in citric acid",
+            "safety_level": null,
+            "description": null
+        },
+        {
+            "name": "sodium benzoate",
+            "safety_level": "medium",
+            "description": null
+        },
+        {
+            "name": "eggs",
+            "safety_level": null,
+            "description": null
+        },
+        {
+            "name": "additive",
+            "safety_level": null,
+            "description": null
+        },
+        {
+            "name": "preservative",
+            "safety_level": null,
+            "description": null
+        },
+        {
+            "name": "artificial ingredient",
+            "safety_level": null,
+            "description": null
+        },
+        {
+            "name": "artificial preservative",
+            "safety_level": null,
+            "description": null
+        }
+    ],
+    "ingredientCount": 3,
+    "ingredientList": "Eggs (Processed in Citric Acid and Sodium Benzoate)",
+    "images": [
+        "https://spoonacular.com/productImages/7408-312x231.jpg",
+        "https://spoonacular.com/productImages/7408-636x393.jpg",
+        "https://spoonacular.com/productImages/7408-90x90.jpg"
+    ]
+}
