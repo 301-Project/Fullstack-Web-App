@@ -1,0 +1,24 @@
+{
+  "name": "fullstack-web-app",
+  "version": "1.0.0",
+  "description": "```",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/301-Project/Fullstack-Web-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/301-Project/Fullstack-Web-App/issues"
+  },
+  "homepage": "https://github.com/301-Project/Fullstack-Web-App#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "unirest": "^0.5.1"
+  }
+}

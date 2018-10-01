@@ -1,0 +1,29 @@
+[
+    {
+        "id": 977701,
+        "title": "Instant Pot Hard Boiled Eggs",
+        "image": "https://spoonacular.com/recipeImages/977701-312x231.jpg",
+        "imageType": "jpg",
+        "usedIngredientCount": 1,
+        "missedIngredientCount": 0,
+        "likes": 9128
+    },
+    {
+        "id": 936987,
+        "title": "Delicate French Omelet",
+        "image": "https://spoonacular.com/recipeImages/936987-312x231.jpg",
+        "imageType": "jpg",
+        "usedIngredientCount": 1,
+        "missedIngredientCount": 1,
+        "likes": 0
+    },
+    {
+        "id": 937365,
+        "title": "Vanilla Coconut Flour Cupcakes: Easy + Gluten-Free",
+        "image": "https://spoonacular.com/recipeImages/937365-312x231.jpg",
+        "imageType": "jpg",
+        "usedIngredientCount": 1,
+        "missedIngredientCount": 1,
+        "likes": 0
+    }
+]
