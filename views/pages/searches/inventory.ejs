@@ -16,6 +16,15 @@
       <ul><a href="/views/aboutus.ejs">About Us</a></ul>
     </nav>
     
+    <!-- ADD ITEM TO YOUR REFRIGERATOR -->
+    <ul>
+            <form action="add" method="post">
+                <input type="text" name="food" placeholder="Food" required>
+                <input type="text" name="quantity" placeholder="Quantity by grams" required>
+                <button type="submit">Add To My Refrigerator</button>
+            </form>
+        </ul>
+
     <!-- LIST EACH ITEM IN THE INVENTORY DATABASE -->
     <ul>
         <% inventory.forEach( item => { %>
