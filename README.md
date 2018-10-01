@@ -27,9 +27,9 @@
 └── views
     ├── index.ejs
     ├── pages
-    │   ├── books
-    │   │   ├── new.ejs
-    │   │   └── show.ejs
+    │   |
+    │   │   
+    │   │   
     │   ├── error.ejs
     │   └── searches
     │       ├── new.ejs
