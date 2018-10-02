@@ -29,6 +29,21 @@
         </div>
         
         <div class="formsDescription">
+            <img src=<%=item.image_url %>>
+            <button class="show(<%= index %>)">Detail</button>
+    <div id="detailsDescription<%= index %>">
+      <h2>Title:
+        <%= item.title %>
+      </h2>
+      <p>Author:
+        <%= item.author %>
+      </p>
+      <p>ISBN:
+        <%= item.isbn %>
+      </p>
+      <p>Description:
+        <%= item.description %>
+      </p>
         <button class="show_hide">Save Book</button>
           <form id="popup" action="/save" method="post">
             <input type="text" name="title" placeholder="Enter title" value="<%= item.title %>" required>

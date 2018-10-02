@@ -62,13 +62,19 @@
     background-image: url(image/open-refrige.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(0,0,0,0.4)
 }
 .recipe-banner {
   background-image: url(image/refrige-open.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.inventory-banner > h1{
+  /* opacity: 1;
+  color: black;
+  z-index: 100;
+  display: block; */
+}
 
 .main-button a{
     text-decoration: none;
