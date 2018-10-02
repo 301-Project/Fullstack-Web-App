@@ -65,17 +65,17 @@ function handleError(err, res) {
 function queryIngredient(request, response) {
   // let url = `https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/food/products/search?query=c${}}&offset=0&number=10&maxCalories=5000&minProtein=0&maxProtein=100&minFat=0&maxFat=100&minCarbs=0&maxCarbs=100&minCalories=0)`
   let url = `https://spoonacular-recipe-food-nutrition-v1.p.mashape.com/food/products/search?maxCalories=5000&maxCarbs=100&maxFat=100&maxProtein=100&minCalories=0&minCarbs=0&minFat=0&minProtein=0&number=3&offset=0&query=eggs`
-  
-   return unirest.get(url)
-   .header("X-Mashape-Key", "process.env.PRODUCT_API_KEY")
-   .header("Accept", "application/json")
-   .end(function (result) {
-     console.log(result.status, result.headers, result.body);
-   })
-   .catch(error => handleError(error, response));;   
+
+  return unirest.get(url)
+    .header("X-Mashape-Key", "process.env.PRODUCT_API_KEY")
+    .header("Accept", "application/json")
+    .end(function (result) {
+      console.log(result.status, result.headers, result.body);
+    })
+    .catch(error => handleError(error, response));;
   // .then(apiResponse => apiResponse.body.items.map(book => new Book(book.volumeInfo)))
   // .then(books => response.render('pages/searches/show', { arrayOfBooks: books }))
- 
+
 
 
 

@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> 7aa8c09aca4284bac35585a5084bb1be3a613636
 # Created by https://www.gitignore.io/api/node,macos,linux,windows,webstorm,visualstudiocode
 
 ### Linux ###
@@ -216,10 +213,7 @@ ehthumbs_vista.db
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
-<<<<<<< HEAD
 
-=======
->>>>>>> 7aa8c09aca4284bac35585a5084bb1be3a613636
 # Windows Installer files
 *.cab
 *.msi
