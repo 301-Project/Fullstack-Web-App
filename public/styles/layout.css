@@ -22,6 +22,17 @@
 }
 
 .main-button{
+	grid-column: span 2;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: RTitillium Web;
+	font: italic bolder;
+
+}
+
+.main-button{
 	grid-column: span 1;
 }
 

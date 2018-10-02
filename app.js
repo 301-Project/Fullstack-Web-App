@@ -8,5 +8,3 @@ navBarToggle.addEventListener('click', function(){
     mainNav.classList.toggle('active');
 })
 
-
-$('')
