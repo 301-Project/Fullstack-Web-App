@@ -4,11 +4,6 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:300i,400,600");
 
 
-body {
-		margin: 0 auto;
-    text-align: center;
-}
-
 .container{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -28,24 +23,6 @@ body {
 	grid-column: span 2;
 }
 
-h1 {
-    font-size: 45px;
-    font-family: RTitillium Web;
-    font: italic bolder;
-}
-
-h2 {
-    font-size: 30px;
-    font-family: Roboto Condensed;
-}
-
-p {
-    font-family: PT Sans Narrow;
-}
-
-a {
-    text-decoration: none;
-}
 
 @media (max-width: 700px){
 	.main-banner, .main-button{
