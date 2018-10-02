@@ -5,8 +5,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
   <link rel="stylesheet" type="text/css" href="public/styles/base.css" />
   <link rel="stylesheet" type="text/css" href="public/styles/layout.css" />
-	<link rel="stylesheet" type="text/css" href="public/styles/module.css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="public/styles/module.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -19,17 +19,18 @@
 			<ul class="main-navigation" id="js-navigation">
 				<li><a href="index.html">Home</a></li>
 				<li><a href="/inventory.html">Your Refrigerator</a></li>
-				<li><a href="/pages/searches/shop">Shop For More Food</a></li>
-				<li><a href="aboutus">About Us</a></li>
+				<li><a href="about.html">About Us</a></li>
 				<li></li>
 			</ul>
 		</div>
+		
 		<div class="inventory-banner">
 				<h1>Your Refrigerator</h1>
+
 		</div>
 		<div class="inventory-button">
 				<form action="add" method="post" oninput="x.value=parseInt(quantity.value/10)">
-						<input list="product-list" name=product>
+						<input list="product-list" name=product placeholder="Select or enter food">
 						<datalist id="product-list">
 								<option value="egg">
 								<option value="banana">
@@ -44,10 +45,32 @@
 						10
 						<br><br>
 						<output name="x" for="a"></output>
-						<input type="submit" placeholder="Add To My Refrigerator">
-					</form>
-				<button class="landingPageButton"><a href="/pages/searches/shop">Let's Cook!</a></button>
-			<div class="footer"></div>
+						<button type="submit">Add To My Refrigerator</button>
+				</form>
+
+	<!-- LIST EACH ITEM IN THE INVENTORY DATABASE -->
+	<ul>
+        <h3>Inventory From Database</h3>
+        <p>Quantity From Database</p>
+    </ul>
+
+	<ul>
+		<h3>Inventory From Database</h3>
+		<p>Quantity From Database</p>
+	</ul>
+
+    <!-- SEARCH FOR NEW RECIPES -->
+    <form action="search" method="post">
+        <input type="hidden" value="search">
+        <button type="submit">Search For Recipes</button>
+    </form>
+
+
+
+
+    <div class="footer"><p>CopyRight2018</p></div>
+
+			
 		</div>
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script type="text/javascript" src="app.js"></script>
