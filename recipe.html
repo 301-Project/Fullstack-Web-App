@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipe</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link rel="stylesheet" type="text/css" href="public/styles/base.css" />
+  <link rel="stylesheet" type="text/css" href="public/styles/layout.css" />
+	<link rel="stylesheet" type="text/css" href="public/styles/module.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+	<div class="container">
+			<span class="navbar-toggle" id="js-navbar-toggle">
+					<i class="fa fa-bars"></i>
+			</span>
+		<div class="navigation-bar">
+			<ul class="main-navigation" id="js-navigation">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="/inventory.html">Your Refrigerator</a></li>
+				<li><a href="/pages/searches/shop">Shop For More Food</a></li>
+				<li><a href="aboutus">About Us</a></li>
+				<li></li>
+			</ul>
+		</div>
+		<div class="recipe-banner">
+				<h1>Your Refrigerator</h1>
+        </div>
+        
+        <div class="formsDescription">
+            <img src=<%=item.image_url %>>
+            <button class="show(<%= index %>)">Detail</button>
+    <div id="detailsDescription<%= index %>">
+      <h2>Title:
+        <%= item.title %>
+      </h2>
+      <p>Author:
+        <%= item.author %>
+      </p>
+      <p>ISBN:
+        <%= item.isbn %>
+      </p>
+      <p>Description:
+        <%= item.description %>
+      </p>
+        <button class="show_hide">Save Book</button>
+          <form id="popup" action="/save" method="post">
+            <input type="text" name="title" placeholder="Enter title" value="<%= item.title %>" required>
+            <input type="text" name="author" placeholder="Enter author" value="<%= item.author %>" required>
+            <input type="text" name="isbn" placeholder="Enter isbn" value="<%= item.isbn %>" required>
+            <input type="text" name="description" placeholder="Enter description" value="<%= item.description %>"required>
+            <input type="text" name="image_url" placeholder="Enter image URL" value="<%= item.image_url %>" required>
+            <input type="text" name="bookshelf" placeholder="Enter bookshelf name" value="default" required>
+            <button type="submit" class="hide">Close popup</button>
+          </form>
+        </div>
+        <div class="formsDescription">
+            <button class="show_hide">Save Book</button>
+              <form id="popup" action="/save" method="post">
+                <input type="text" name="title" placeholder="Enter title" value="<%= item.title %>" required>
+                <input type="text" name="author" placeholder="Enter author" value="<%= item.author %>" required>
+                <input type="text" name="isbn" placeholder="Enter isbn" value="<%= item.isbn %>" required>
+                <input type="text" name="description" placeholder="Enter description" value="<%= item.description %>"required>
+                <input type="text" name="image_url" placeholder="Enter image URL" value="<%= item.image_url %>" required>
+                <input type="text" name="bookshelf" placeholder="Enter bookshelf name" value="default" required>
+                <button type="submit" class="hide">Close popup</button>
+              </form>
+            </div>
+            <div class="formsDescription">
+                <button class="show_hide">Save Book</button>
+                  <form id="popup" action="/save" method="post">
+                    <input type="text" name="title" placeholder="Enter title" value="<%= item.title %>" required>
+                    <input type="text" name="author" placeholder="Enter author" value="<%= item.author %>" required>
+                    <input type="text" name="isbn" placeholder="Enter isbn" value="<%= item.isbn %>" required>
+                    <input type="text" name="description" placeholder="Enter description" value="<%= item.description %>"required>
+                    <input type="text" name="image_url" placeholder="Enter image URL" value="<%= item.image_url %>" required>
+                    <input type="text" name="bookshelf" placeholder="Enter bookshelf name" value="default" required>
+                    <button type="submit" class="hide">Close popup</button>
+                  </form>
+                </div>
+        <div class="footer"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

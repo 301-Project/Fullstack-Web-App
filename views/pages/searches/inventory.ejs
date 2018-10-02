@@ -23,22 +23,13 @@
     </div>
     <div class="inventory-button">
         <form action="add" method="post" oninput="x.value=parseInt(quantity.value/10)">
-            <input list="product-list" name=product  placeholder="Select or enter food">
-            <datalist id="product-list">
-                <option value="egg">
-                <option value="banana">
-                <option value="fish">
-                <option value="marionberry">
-                <option value="lemon">
-                <option value="red wine">
-                <option value="blueberries">
-            </datalist>
-                1
-                <input type="range" name="quantity" id="quantity" value="1">
-                10
-                <br><br>
-                <output name="x" for="a"></output>
-                <button type="submit">Add To My Refrigerator</button> 
+            <fieldset>
+                <label>
+                    <span>Ingredient</span>
+                    <input type="text" name="search" value="user-query" placeholder="Enter Ingredient" required>
+                </label>
+        </fieldset>
+            <button type="submit">Add To My Refrigerator</button> 
         </form>
 
     <!-- LIST EACH ITEM IN THE INVENTORY DATABASE -->

@@ -8,10 +8,12 @@
     background-color: #333;
     top: 10px;
 }
+
 .navigation-bar li{
     text-align: center;
     margin: 15px auto;
 }
+
 .navigation-bar a{
     float: left; 
     display: block;
@@ -30,14 +32,15 @@
     color: rgba(255,255,255,0.8);
     font-size: 24px;
 }
+
 .main-navigation{
     list-style-type: none;
     display: none;
 }
+
 .active{
     display:block;
 }
-
 
 /* 
 
@@ -45,23 +48,39 @@
 
 */
 
-
 .main-banner> h1 {
     color: rgb(208, 227, 231);
 }
-.inventory-banner> h1{
-    color: black);
-}
+
 .main-banner {
     background-image: url(image/refrigerator.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
+
 .inventory-banner {
     background-image: url(image/open-refrige.png);
+    opacity: 0.3;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(0,0,0,0.4)
+}
+.recipe-banner {
+  background-image: url(image/refrige-open.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.inventory-banner > h1{
+  /* opacity: 1;
+  color: black;
+  z-index: 100;
+  display: block; */
+}
+
+
+.inventory-banner> h1{
+  color: black;
 }
 
 
@@ -175,3 +194,30 @@ input[type=range] {
         background-color: #333;
         top: 10px;
 }
+
+
+
+#popup {
+  background: rgba(100, 100, 100, 0.6);
+  position: fixed;
+  display: none;
+  z-index: 5000;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+#popup > form{
+  border-radius: 10px;
+  position: fixed;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 15px 0px rgba(#000000, 0.3);
+  padding: 30px 15px;
+  /* Width of popup can be changed */
+  width: 70%;
+  max-width: 600px;
+  z-index: 5001;
+  text-align: center;
+  border: 5px solid #9AD3DE;
+}
+
