@@ -8,13 +8,14 @@ const methodOverride = require('method-override');
 const bodyParser = require('body-parser');
 const unirest = require('unirest');
 
+// Load environment variables from .env file
+require('dotenv').config();
 
 // Application Setup
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Load environment variables from .env file
-require('dotenv').config();
+
 
 //Application Middleware
 app.use(express.static('./public'));
