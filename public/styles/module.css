@@ -8,10 +8,12 @@
     background-color: #333;
     top: 10px;
 }
+
 .navigation-bar li{
     text-align: center;
     margin: 15px auto;
 }
+
 .navigation-bar a{
     float: left; 
     display: block;
@@ -30,14 +32,15 @@
     color: rgba(255,255,255,0.8);
     font-size: 24px;
 }
+
 .main-navigation{
     list-style-type: none;
     display: none;
 }
+
 .active{
     display:block;
 }
-
 
 /* 
 
@@ -45,25 +48,27 @@
 
 */
 
-
 .main-banner> h1 {
     color: rgb(208, 227, 231);
 }
-.inventory-banner> h1{
-    color: black);
-}
+
 .main-banner {
     background-image: url(image/refrigerator.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
+
 .inventory-banner {
     background-image: url(image/open-refrige.png);
+    opacity: 0.3;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.inventory-banner> h1{
+  color: black;
+}
 
 .main-button a{
     text-decoration: none;
@@ -175,3 +180,27 @@ input[type=range] {
         background-color: #333;
         top: 10px;
 }
+
+.about-img {
+  width: 150px;
+}
+
+* {
+  outline: 1px dotted rebeccapurple;
+}
+
+.about-text {
+  text-align: left;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+
+
+
+
+
+
+
+

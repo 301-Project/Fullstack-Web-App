@@ -1,8 +1,6 @@
-
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:300i,400,600");
-
 
 .container{
 	display: grid;
@@ -10,28 +8,54 @@
 	grid-template-rows: 10vw 80vw 10vw;
 	grid-gap: 1em;
 }
+
 .navigation-bar, .footer{
-	grid-column: 1 / span 5;
+	grid-column: 1 / span 4;
 }
+
 .main-banner{
 	grid-column: 1 / span 3;
 }
+
 .inventory-banner{
 	grid-column: 1 / span 3;
 }
+
 .main-button{
-	grid-column: span 2;
+	grid-column: span 1;
 }
 
+.about-banner {
+	grid-column: 1 / span 4;
+}
 
+/* HOME PAGE MOBILE VIEW */
 @media (max-width: 700px){
 	.main-banner, .main-button{
-		grid-column: 1 / span 5;
+		grid-column: 1 / span 4;
 	}
 }
 
+/* INVENTORY MOBILE VIEW */
 @media (max-width: 700px){
 	.inventory-banner, .inventory-button{
-		grid-column: 1 / span 5;
+		grid-column: 1 / span 4;
 	}
 }
+
+/* ABOUT MOBILE VIEW */
+@media (max-width: 700px){
+	.about-text {
+		width: 500px;
+		background-color: pink;
+	  }
+
+
+
+}
+
+
+
+
+
+
