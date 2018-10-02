@@ -14,7 +14,6 @@
                 <ul class="main-navigation" id="js-navigation">
                     <li><a href="/views/index.ejs">Home</a></li>
                     <li><a href="/views/pages/searches/inventory.ejs">Your Refrigerator</a></li>
-                    <li><a href="/views/pages/searches/shop.ejs">Shop For More Food</a></li>
                     <li><a href="/views/aboutus.ejs">About Us</a></li>
                     <li></li>
                 </ul>
@@ -24,7 +23,7 @@
     </div>
     <div class="inventory-button">
         <form action="add" method="post" oninput="x.value=parseInt(quantity.value/10)">
-            <input list="product-list" name=product>
+            <input list="product-list" name=product  placeholder="Select or enter food">
             <datalist id="product-list">
                 <option value="egg">
                 <option value="banana">
@@ -39,13 +38,27 @@
                 10
                 <br><br>
                 <output name="x" for="a"></output>
-                <button type="submit" placeholder="Add To My Refrigerator"></button> 
-            <!-- <button class="landingPageButton"><a href="/pages/searches/shop">Let's Cook!</a></button> -->
+                <button type="submit">Add To My Refrigerator</button> 
         </form>
 
-        <button class="landingPageButton"><a href="/pages/searches/shop">Let's Cook!</a></button>
+    <!-- LIST EACH ITEM IN THE INVENTORY DATABASE -->
+    <ul>
+        <% inventory.forEach( item => { %>
+            <h2><%=inventory.name %></h2>
+            <p>Quantity: <%=inventory.quantity %></p>
+        <% }) %>
+    </ul>
 
-        <div class="footer"><p>CopyRight2018</p></div>
+    <!-- SEARCH FOR NEW RECIPES -->
+    <form action="search" method="post">
+        <input type="hidden" value="search">
+        <button type="submit">Search For Recipes</button>
+    </form>
+
+
+
+    <div class="footer"><p>CopyRight2018</p></div>
+    
     </div>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -53,3 +66,6 @@
 
 </body>
 </html>
+
+
+
