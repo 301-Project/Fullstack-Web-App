@@ -1,7 +1,7 @@
 {
-  "name": "Fullstack-Web-App",
+  "name": "fullstack-web-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "```",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,11 +24,7 @@
     "express": "^4.16.3",
     "method-override": "^3.0.0",
     "pg": "^7.4.3",
-<<<<<<< HEAD
     "superagent": "^4.0.0-beta.5",
     "unirest": "^0.5.1"
-=======
-    "superagent": "^4.0.0-beta.5"
->>>>>>> def4c57a1f3da9197bc8b559c214206f8474ee29
   }
 }
