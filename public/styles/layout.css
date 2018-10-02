@@ -9,7 +9,7 @@ body {
     text-align: center;
 }
 
-.containerLanding{
+.container{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: 10vw 80vw 10vw;
@@ -19,6 +19,9 @@ body {
 	grid-column: 1 / span 5;
 }
 .main-banner{
+	grid-column: 1 / span 3;
+}
+.inventory-banner{
 	grid-column: 1 / span 3;
 }
 .main-button{
@@ -46,6 +49,12 @@ a {
 
 @media (max-width: 700px){
 	.main-banner, .main-button{
+		grid-column: 1 / span 5;
+	}
+}
+
+@media (max-width: 700px){
+	.inventory-banner, .inventory-button{
 		grid-column: 1 / span 5;
 	}
 }
