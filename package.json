@@ -1,7 +1,7 @@
 {
-  "name": "fullstack-web-app",
+  "name": "Fullstack-Web-App",
   "version": "1.0.0",
-  "description": "```",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,6 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/301-Project/Fullstack-Web-App.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -18,7 +19,16 @@
   },
   "homepage": "https://github.com/301-Project/Fullstack-Web-App#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "method-override": "^3.0.0",
+    "pg": "^7.4.3",
+<<<<<<< HEAD
+    "superagent": "^4.0.0-beta.5",
     "unirest": "^0.5.1"
+=======
+    "superagent": "^4.0.0-beta.5"
+>>>>>>> def4c57a1f3da9197bc8b559c214206f8474ee29
   }
 }
