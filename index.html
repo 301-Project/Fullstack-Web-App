@@ -2,33 +2,41 @@
 <html>
 <head>
   <title>Home</title>
-  <link rel="stylesheet" type="text/css" href="/styles/reset.css" />
-  <link rel="stylesheet" type="text/css" href="/styles/base.css" />
-  <link rel="stylesheet" type="text/css" href="/styles/layout.css" />
-  <link rel="stylesheet" type="text/css" href="/styles/modules.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link rel="stylesheet" type="text/css" href="public/styles/base.css" />
+  <link rel="stylesheet" type="text/css" href="public/styles/layout.css" />
+	<link rel="stylesheet" type="text/css" href="public/styles/module.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
-  <header>
-    <h1>Gotta Eat! Home</h1>
-y
+  
+    <div class="container">
+				<span class="navbar-toggle" id="js-navbar-toggle">
+						<i class="fa fa-bars"></i>
+				</span>
+			<div class="navigation-bar">
+				<ul class="main-navigation" id="js-navigation">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="/inventory.html">Your Refrigerator</a></li>
+					<li><a href="/pages/searches/shop">Shop For More Food</a></li>
+					<li><a href="aboutus">About Us</a></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="main-banner">
+					<h1>Gotta Eat! Home</h1>
+			</div>
 
-  </header>
+			<div class="main-button">
+				<button class="landingPageButton"><a href="inventory.html">See Your Refrigerator</a></button>
+				<button class="landingPageButton"><a href="/pages/searches/shop">Create Shopping List</a></button>
+			</div>
 
+			<div class="footer"></div>
+    </div>
 
-  <main>
-    <nav class="sidenav">
-      <ul><a href="/inventory.html">Your Refrigerator</a></ul>
-      <ul><a href="/pages/searches/shop">Shop For More Food</a></ul>
-      <ul><a href="aboutus">About Us</a></ul>
-    </nav>
-    
-    <a href="/pages/searches/inventory">See Your Refrigerator</a>
-    <a href="/pages/searches/shop">Shop For More Food</a>
-
-
-  </main>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
 </body>
-<footer>
-    <p>CopyRight2018</p>
-</footer>
 </html>
