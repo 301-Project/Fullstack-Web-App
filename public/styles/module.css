@@ -63,6 +63,11 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.recipe-banner {
+  background-image: url(image/refrige-open.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 .main-button a{
@@ -174,4 +179,29 @@ input[type=range] {
 .footer{
         background-color: #333;
         top: 10px;
+}
+
+
+#popup {
+  background: rgba(100, 100, 100, 0.6);
+  position: fixed;
+  display: none;
+  z-index: 5000;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+#popup > form{
+  border-radius: 10px;
+  position: fixed;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 15px 0px rgba(#000000, 0.3);
+  padding: 30px 15px;
+  /* Width of popup can be changed */
+  width: 70%;
+  max-width: 600px;
+  z-index: 5001;
+  text-align: center;
+  border: 5px solid #9AD3DE;
 }
