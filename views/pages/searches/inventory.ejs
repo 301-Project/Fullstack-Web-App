@@ -5,25 +5,41 @@
   <%- include('../partials/head') %>
 </head>
 <body>
-  <header>
-    <h1>Your Refrigerator</h1>
-  </header>
 
-  <main>
-    <nav class="sidenav">
-      <ul><a href="/views/index.ejs">Home</a></ul>
-      <ul><a href="/views/pages/searches/shop.ejs">Shop For More Food</a></ul>
-      <ul><a href="/views/aboutus.ejs">About Us</a></ul>
-    </nav>
-    
-    <!-- ADD ITEM TO YOUR REFRIGERATOR -->
-    <ul>
-            <form action="add" method="post">
-                <input type="text" name="food" placeholder="Food" required>
-                <input type="text" name="quantity" placeholder="Quantity by grams" required>
-                <button type="submit">Add To My Refrigerator</button>
-            </form>
-        </ul>
+    <div class="container">
+                <span class="navbar-toggle" id="js-navbar-toggle">
+                        <i class="fa fa-bars"></i>
+                </span>
+            <div class="navigation-bar">
+                <ul class="main-navigation" id="js-navigation">
+                    <li><a href="/views/index.ejs">Home</a></li>
+                    <li><a href="/views/pages/searches/inventory.ejs">Your Refrigerator</a></li>
+                    <li><a href="/views/aboutus.ejs">About Us</a></li>
+                    <li></li>
+                </ul>
+    </div>
+    <div class="inventory-banner">
+        <h1>Your Refrigerator</h1>
+    </div>
+    <div class="inventory-button">
+        <form action="add" method="post" oninput="x.value=parseInt(quantity.value/10)">
+            <input list="product-list" name=product  placeholder="Select or enter food">
+            <datalist id="product-list">
+                <option value="egg">
+                <option value="banana">
+                <option value="fish">
+                <option value="marionberry">
+                <option value="lemon">
+                <option value="red wine">
+                <option value="blueberries">
+            </datalist>
+                1
+                <input type="range" name="quantity" id="quantity" value="1">
+                10
+                <br><br>
+                <output name="x" for="a"></output>
+                <button type="submit">Add To My Refrigerator</button> 
+        </form>
 
     <!-- LIST EACH ITEM IN THE INVENTORY DATABASE -->
     <ul>
@@ -39,13 +55,17 @@
         <button type="submit">Search For Recipes</button>
     </form>
 
-    <!-- NAVIGATE TO SHOPPING PAGE -->
-    <a href="/pages/searches/shop">Shop To Add More Food</a>
 
 
-  </main>
+    <div class="footer"><p>CopyRight2018</p></div>
+    
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
 </body>
-<footer>
-    <p>CopyRight2018</p>
-</footer>
 </html>
+
+
+
