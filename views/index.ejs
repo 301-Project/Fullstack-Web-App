@@ -5,26 +5,38 @@
   <%- include('../partials/head') %>
 </head>
 <body>
-  <header>
-    <h1>Gotta Eat! Home</h1>
+  
+    <div class="container">
+				<span class="navbar-toggle" id="js-navbar-toggle">
+						<i class="fa fa-bars"></i>
+				</span>
+			<div class="navigation-bar">
+				<ul class="main-navigation" id="js-navigation">
+					<li><a href="/views/index.ejs">Home</a></li>
+					<li><a href="/views/pages/searches/inventory.ejs">Your Refrigerator</a></li>
+					<li><a href="/views/aboutus.ejs">About Us</a></li>
+					<li></li>
+				</ul>
+			</div>
+			<div class="main-banner">
+					<h1>Gotta Eat! Home</h1>
+			</div>
 
-  </header>
+			<div class="main-button">
+				<button class="landingPageButton"><a href="/views/pages/searches/inventory.ejs">See Your Refrigerator</a></button>
+				<button class="landingPageButton" action="search" method="post">Search For Recipe</button>
+			</div>
 
 
-  <main>
-    <nav class="sidenav">
-      <ul><a href="/pages/searches/inventory">Your Refrigerator</a></ul>
-      <ul><a href="/pages/searches/shop">Shop For More Food</a></ul>
-      <ul><a href="aboutus">About Us</a></ul>
-    </nav>
-    
-    <a href="/pages/searches/inventory">See Your Refrigerator</a>
-    <a href="/pages/searches/shop">Shop For More Food</a>
 
 
-  </main>
+
+			<div class="footer">
+				<p>CopyRight2018</p>
+			</div>
+    </div>
+
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
 </body>
-<footer>
-    <p>CopyRight2018</p>
-</footer>
 </html>
